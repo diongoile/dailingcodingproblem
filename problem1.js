@@ -13,8 +13,7 @@ const k = 17
 const addNumber = (array, k) => {
     array.forEach(element => {
         array.forEach(element2 => {
-            let addedNumber = element + element2
-            if (addedNumber == k) {
+            if (element + element2 === k) {
                 console.log(`${element} and ${element2} add together to make 17.`)
             }
         })
